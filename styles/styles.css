@@ -1,0 +1,209 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Inter;
+background: #07081A;
+}
+
+.fullWrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 88px;
+}
+
+header {
+display: flex;
+height: 64px;
+padding: 14px 200px;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid #261C51;
+}
+
+nav {
+display: flex;
+width: 1040px;
+justify-content: space-between;
+align-items: center;
+}
+
+.logoWrapper {
+display: flex;
+align-items: center;
+gap: 12px;
+color: #FFF;
+font-weight: 500;
+line-height: 24px;
+text-transform: capitalize;
+}
+
+.headingUl {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+list-style: none;
+}
+
+.liLink {
+color: #FFF;
+font-weight: 500;
+line-height: 24px; 
+text-transform: capitalize;
+text-decoration: none;
+}
+
+.liLink:hover {
+color: #B968DE;
+}
+
+.userWrapper {
+border-radius: 8px;
+background-color: #9100D3;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 88px;
+}
+
+.heroWrapper {
+display: flex;
+max-width: 600px;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+
+.heroHeadingWrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+}
+
+h1 {
+color: #FFF;
+text-align: center;
+font-size: 48px;
+font-weight: 800;
+line-height: 52px;
+}
+
+.heroHeadingWrapper span {
+color: #C0C0C0;
+text-align: center;
+font-family: Inter;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.heroHeadingButton {
+display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 0;
+background: #9100D3;
+color: #FFF;
+text-align: center;
+font-weight: 400;
+line-height: 24px;
+}
+
+.companyWrapper {
+display: flex;
+padding: 0px 72px 24px 72px;
+justify-content: center;
+align-items: flex-start;
+gap: 90px;
+}
+
+.companyLogoWrapper {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.companyLogoWrapper span{
+color: #FFF;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px; 
+}
+
+
+.cardsWrapper {
+display: flex;
+align-items: center;
+gap: 64px;
+max-width: 1040px;
+width: 100%;
+}
+
+.cards {
+display: flex;
+padding: 16px 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+border: 1px solid #261C51;
+max-width: 306px;
+width: 100%;
+}
+
+.cardHeader {
+color: #FFF;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+}
+
+.cardContent {
+color: #C0C0C0;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
+
+footer {
+border-top: 1px solid #261C51;
+display: flex;
+padding: 20px 200px;
+justify-content: center;
+align-items: flex-start;
+gap: 463px;
+}
+
+footer span {
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+.socialmedia {
+display: flex;
+align-items: center;
+gap: 24px;
+}
