@@ -69,6 +69,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 10px;
+cursor: pointer 
 }
 
 main {
@@ -124,6 +125,7 @@ color: #FFF;
 text-align: center;
 font-weight: 400;
 line-height: 24px;
+cursor: pointer 
 }
 
 .companyWrapper {
@@ -206,4 +208,8 @@ line-height: 24px;
 display: flex;
 align-items: center;
 gap: 24px;
+}
+
+.socialmedia img {
+    cursor: pointer 
 }
